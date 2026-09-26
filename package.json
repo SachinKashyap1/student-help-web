@@ -1,0 +1,20 @@
+{
+  "name": "student-help-web",
+  "version": "1.0.0",
+  "description": "Fullstack portal for SRM IST Central Library resources",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "srm",
+    "library",
+    "portal"
+  ],
+  "author": "Antigravity",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}

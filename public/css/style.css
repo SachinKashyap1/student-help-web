@@ -1,0 +1,134 @@
+/* Student Help Web (SHW) Custom CSS Stylesheet */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(156, 163, 175, 0.4);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(107, 114, 128, 0.7);
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: rgba(75, 85, 99, 0.5);
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: rgba(156, 163, 175, 0.7);
+}
+
+/* Transitions */
+* {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, box-shadow, transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 200ms;
+}
+
+/* Card Hover Micro-animations */
+.resource-card {
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.resource-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 24px -10px rgba(0, 0, 0, 0.12), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.dark .resource-card:hover {
+  box-shadow: 0 12px 24px -10px rgba(0, 0, 0, 0.6), 0 4px 6px -2px rgba(0, 0, 0, 0.3);
+}
+
+/* Star rating selector effects */
+.star-selector {
+  cursor: pointer;
+  transition: transform 0.15s ease, color 0.15s ease;
+}
+
+.star-selector:hover {
+  transform: scale(1.2);
+}
+
+/* Category Badge Colors */
+.badge-journals {
+  background-color: #dbeafe;
+  color: #1e40af;
+}
+
+.dark .badge-journals {
+  background-color: rgba(30, 64, 175, 0.3);
+  color: #93c5fd;
+}
+
+.badge-databases {
+  background-color: #dcfce7;
+  color: #166534;
+}
+
+.dark .badge-databases {
+  background-color: rgba(22, 101, 52, 0.3);
+  color: #86efac;
+}
+
+.badge-ebooks {
+  background-color: #f3e8ff;
+  color: #6b21a8;
+}
+
+.dark .badge-ebooks {
+  background-color: rgba(107, 33, 168, 0.3);
+  color: #d8b4fe;
+}
+
+.badge-portals {
+  background-color: #fef3c7;
+  color: #92400e;
+}
+
+.dark .badge-portals {
+  background-color: rgba(146, 64, 14, 0.3);
+  color: #fde68a;
+}
+
+/* Modal backdrop animation */
+#addResourceModal {
+  transition: opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#addResourceModal > div {
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#addResourceModal:not(.pointer-events-none) {
+  opacity: 1;
+}
+
+#addResourceModal:not(.pointer-events-none) > div {
+  transform: scale(1);
+}
+
+/* Pulse highlight for active resource */
+.active-resource-card {
+  border-color: #2563eb !important;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.3);
+}
+
+.dark .active-resource-card {
+  border-color: #3b82f6 !important;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.4);
+}

@@ -1,0 +1,581 @@
+{
+  "resources": [
+    {
+      "id": "j1",
+      "name": "IEEE Xplore / IEEE-IET Electronic Library (IEL) – Level 1",
+      "category": "journals",
+      "purpose": "Engineering, Technology, Computer Science, Electronics",
+      "url": "https://ieeexplore.ieee.org/",
+      "tags": [
+        "Engineering",
+        "Technology",
+        "Computer Science",
+        "Electronics"
+      ],
+      "ratingCount": 7,
+      "ratingSum": 33
+    },
+    {
+      "id": "j2",
+      "name": "ACM Digital Library",
+      "category": "journals",
+      "purpose": "Computing & Computer Science",
+      "url": "https://dl.acm.org/",
+      "tags": [
+        "Computing",
+        "Computer Science"
+      ],
+      "ratingCount": 4,
+      "ratingSum": 18
+    },
+    {
+      "id": "j3",
+      "name": "ASME Digital Collection",
+      "category": "journals",
+      "purpose": "Mechanical Engineering",
+      "url": "https://asmedigitalcollection.asme.org/",
+      "tags": [
+        "Mechanical",
+        "Engineering"
+      ],
+      "ratingCount": 3,
+      "ratingSum": 12
+    },
+    {
+      "id": "j4",
+      "name": "ASCE Library",
+      "category": "journals",
+      "purpose": "Civil Engineering",
+      "url": "https://ascelibrary.org/",
+      "tags": [
+        "Civil",
+        "Engineering"
+      ],
+      "ratingCount": 2,
+      "ratingSum": 8
+    },
+    {
+      "id": "j5",
+      "name": "ScienceDirect / Elsevier (Journals)",
+      "category": "journals",
+      "purpose": "Engineering & Technology, Computer Science",
+      "url": "https://www.sciencedirect.com/",
+      "tags": [
+        "Engineering",
+        "Technology",
+        "Computer Science",
+        "Elsevier"
+      ],
+      "ratingCount": 6,
+      "ratingSum": 28
+    },
+    {
+      "id": "j6",
+      "name": "SpringerLink (Journals)",
+      "category": "journals",
+      "purpose": "Science, Technology, Medicine, Humanities & Social Sciences",
+      "url": "https://link.springer.com/",
+      "tags": [
+        "Science",
+        "Technology",
+        "Medicine",
+        "Social Sciences",
+        "Springer"
+      ],
+      "ratingCount": 4,
+      "ratingSum": 16
+    },
+    {
+      "id": "j7",
+      "name": "Nature Online",
+      "category": "journals",
+      "purpose": "Multidisciplinary Science & Research",
+      "url": "https://www.nature.com/",
+      "tags": [
+        "Multidisciplinary",
+        "Science",
+        "Research"
+      ],
+      "ratingCount": 5,
+      "ratingSum": 24
+    },
+    {
+      "id": "j8",
+      "name": "SAE Digital Library",
+      "category": "journals",
+      "purpose": "Automotive, Mobility & Engineering",
+      "url": "https://saemobilus.sae.org/",
+      "tags": [
+        "Automotive",
+        "Mobility",
+        "Engineering"
+      ],
+      "ratingCount": 1,
+      "ratingSum": 4
+    },
+    {
+      "id": "j9",
+      "name": "Emerald Insight",
+      "category": "journals",
+      "purpose": "Business, Management, Strategy, Information & Knowledge Management",
+      "url": "https://www.emerald.com/insight/",
+      "tags": [
+        "Business",
+        "Management",
+        "Strategy",
+        "Information"
+      ],
+      "ratingCount": 3,
+      "ratingSum": 12
+    },
+    {
+      "id": "j10",
+      "name": "PubMed Central (PMC)",
+      "category": "journals",
+      "purpose": "Biomedical & Life Sciences Open Access Research",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/",
+      "tags": [
+        "Biomedical",
+        "Life Sciences",
+        "Medicine",
+        "Open Access"
+      ],
+      "ratingCount": 5,
+      "ratingSum": 23
+    },
+    {
+      "id": "j11",
+      "name": "Taylor & Francis Online",
+      "category": "journals",
+      "purpose": "Multidisciplinary Academic & Research Journals",
+      "url": "https://www.tandfonline.com/",
+      "tags": [
+        "Multidisciplinary",
+        "Science",
+        "Humanities",
+        "Social Sciences"
+      ],
+      "ratingCount": 4,
+      "ratingSum": 18
+    },
+    {
+      "id": "j12",
+      "name": "Wiley Online Library (Journals)",
+      "category": "journals",
+      "purpose": "Science, Technology, Medicine, & Humanities Journals",
+      "url": "https://onlinelibrary.wiley.com/",
+      "tags": [
+        "Science",
+        "Technology",
+        "Medicine",
+        "Wiley"
+      ],
+      "ratingCount": 4,
+      "ratingSum": 17
+    },
+    {
+      "id": "j13",
+      "name": "Oxford Academic Journals",
+      "category": "journals",
+      "purpose": "Humanities, Law, Medicine & Science Periodicals",
+      "url": "https://academic.oup.com/",
+      "tags": [
+        "Humanities",
+        "Law",
+        "Medicine",
+        "Oxford"
+      ],
+      "ratingCount": 3,
+      "ratingSum": 13
+    },
+    {
+      "id": "j14",
+      "name": "Cambridge Core",
+      "category": "journals",
+      "purpose": "Academic Research & Scholarly Journals",
+      "url": "https://www.cambridge.org/core",
+      "tags": [
+        "Scholarly",
+        "Academic",
+        "Cambridge"
+      ],
+      "ratingCount": 3,
+      "ratingSum": 12
+    },
+    {
+      "id": "d1",
+      "name": "Scopus",
+      "category": "databases",
+      "purpose": "Abstract & Citation Database",
+      "url": "https://www.scopus.com/",
+      "tags": [
+        "Abstract",
+        "Citation",
+        "Research"
+      ],
+      "ratingCount": 7,
+      "ratingSum": 32
+    },
+    {
+      "id": "d2",
+      "name": "EBSCOhost",
+      "category": "databases",
+      "purpose": "Management Research Database",
+      "url": "https://search.ebscohost.com/",
+      "tags": [
+        "Management",
+        "Research",
+        "Database"
+      ],
+      "ratingCount": 4,
+      "ratingSum": 17
+    },
+    {
+      "id": "d3",
+      "name": "ProQuest",
+      "category": "databases",
+      "purpose": "Business Research Database",
+      "url": "https://www.proquest.com/",
+      "tags": [
+        "Business",
+        "Research",
+        "Database"
+      ],
+      "ratingCount": 3,
+      "ratingSum": 13
+    },
+    {
+      "id": "d4",
+      "name": "J-Gate",
+      "category": "databases",
+      "purpose": "Engineering & Technology; Social & Management Sciences",
+      "url": "https://jgateplus.com/",
+      "tags": [
+        "Engineering",
+        "Technology",
+        "Social Sciences",
+        "Management"
+      ],
+      "ratingCount": 2,
+      "ratingSum": 7
+    },
+    {
+      "id": "d5",
+      "name": "ASTM Compass / Standards & Engineering Digital Library",
+      "category": "databases",
+      "purpose": "ASTM Standards & Engineering",
+      "url": "https://compass.astm.org/",
+      "tags": [
+        "Standards",
+        "ASTM",
+        "Engineering"
+      ],
+      "ratingCount": 1,
+      "ratingSum": 5
+    },
+    {
+      "id": "d6",
+      "name": "SCC Online",
+      "category": "databases",
+      "purpose": "Legal Research / Indian Law",
+      "url": "https://www.scconline.com/",
+      "tags": [
+        "Legal",
+        "Law",
+        "India"
+      ],
+      "ratingCount": 3,
+      "ratingSum": 14
+    },
+    {
+      "id": "d7",
+      "name": "Web of Science (Clarivate)",
+      "category": "databases",
+      "purpose": "Multidisciplinary Citation & Indexing Database",
+      "url": "https://www.webofscience.com/",
+      "tags": [
+        "Citation",
+        "Indexing",
+        "Multidisciplinary",
+        "Clarivate"
+      ],
+      "ratingCount": 6,
+      "ratingSum": 29
+    },
+    {
+      "id": "d8",
+      "name": "JSTOR",
+      "category": "databases",
+      "purpose": "Digital Archive for Academic Journals & Primary Sources",
+      "url": "https://www.jstor.org/",
+      "tags": [
+        "Archive",
+        "Journals",
+        "Humanities",
+        "Literature"
+      ],
+      "ratingCount": 5,
+      "ratingSum": 22
+    },
+    {
+      "id": "d9",
+      "name": "ScienceOpen",
+      "category": "databases",
+      "purpose": "Interactive Research & Citation Discovery Platform",
+      "url": "https://www.scienceopen.com/",
+      "tags": [
+        "Research",
+        "Discovery",
+        "Networking"
+      ],
+      "ratingCount": 3,
+      "ratingSum": 12
+    },
+    {
+      "id": "d10",
+      "name": "DOAJ (Directory of Open Access Journals)",
+      "category": "databases",
+      "purpose": "Curated Open Access Academic Journals Index",
+      "url": "https://doaj.org/",
+      "tags": [
+        "Open Access",
+        "Peer-Reviewed",
+        "Directory"
+      ],
+      "ratingCount": 4,
+      "ratingSum": 18
+    },
+    {
+      "id": "d11",
+      "name": "IEEE Computer Society Digital Library",
+      "category": "databases",
+      "purpose": "Computer Science & Software Engineering Repository",
+      "url": "https://www.computer.org/csdl",
+      "tags": [
+        "IEEE",
+        "Computer Science",
+        "Software",
+        "Repository"
+      ],
+      "ratingCount": 5,
+      "ratingSum": 24
+    },
+    {
+      "id": "e1",
+      "name": "SpringerLink (E-Books)",
+      "category": "ebooks",
+      "purpose": "Engineering, Biomedical & Life Sciences, Chemistry & Material Science, Mathematics & Statistics, Computer Science, Physics & Astronomy, Professional & Applied Computing",
+      "url": "https://link.springer.com/",
+      "tags": [
+        "Engineering",
+        "Biomedical",
+        "Chemistry",
+        "Math",
+        "Physics",
+        "Computer Science"
+      ],
+      "ratingCount": 5,
+      "ratingSum": 22
+    },
+    {
+      "id": "e2",
+      "name": "Elsevier / ScienceDirect (E-Books)",
+      "category": "ebooks",
+      "purpose": "Engineering & Technology, Computer Science",
+      "url": "https://www.sciencedirect.com/",
+      "tags": [
+        "Engineering",
+        "Technology",
+        "Computer Science"
+      ],
+      "ratingCount": 3,
+      "ratingSum": 13
+    },
+    {
+      "id": "e3",
+      "name": "Wiley Online Library (E-Books)",
+      "category": "ebooks",
+      "purpose": "Engineering & Technology",
+      "url": "https://onlinelibrary.wiley.com/",
+      "tags": [
+        "Engineering",
+        "Technology",
+        "Wiley"
+      ],
+      "ratingCount": 2,
+      "ratingSum": 9
+    },
+    {
+      "id": "e4",
+      "name": "IET Digital Library (E-Books)",
+      "category": "ebooks",
+      "purpose": "Engineering & Technology",
+      "url": "https://digital-library.theiet.org/",
+      "tags": [
+        "Engineering",
+        "Technology",
+        "IET"
+      ],
+      "ratingCount": 1,
+      "ratingSum": 4
+    },
+    {
+      "id": "e5",
+      "name": "McGraw Hill Education",
+      "category": "ebooks",
+      "purpose": "Engineering & Technology, Computer Science",
+      "url": "https://www.mheducation.com/",
+      "tags": [
+        "Engineering",
+        "Technology",
+        "Computer Science",
+        "McGraw Hill"
+      ],
+      "ratingCount": 4,
+      "ratingSum": 18
+    },
+    {
+      "id": "p1",
+      "name": "SRM IST e-Library",
+      "category": "portals",
+      "purpose": "SRM IST primary e-Library portal (Off-campus Access)",
+      "url": "https://srmist.elib.in/",
+      "tags": [
+        "e-Library",
+        "Off-campus",
+        "SRM Portal"
+      ],
+      "ratingCount": 10,
+      "ratingSum": 48
+    },
+    {
+      "id": "p2",
+      "name": "e-Journals / Online Resources Portal",
+      "category": "portals",
+      "purpose": "Consolidated library portal for journals and online resources",
+      "url": "https://www.srmist.edu.in/library/",
+      "tags": [
+        "e-Journals",
+        "Online Resources",
+        "SRM Portal"
+      ],
+      "ratingCount": 4,
+      "ratingSum": 16
+    },
+    {
+      "id": "p3",
+      "name": "Digital Library Portal",
+      "category": "portals",
+      "purpose": "Main gateway page for central digital library collection",
+      "url": "https://www.srmist.edu.in/library/digital-library",
+      "tags": [
+        "Digital Library",
+        "SRM Portal"
+      ],
+      "ratingCount": 3,
+      "ratingSum": 13
+    },
+    {
+      "id": "p4",
+      "name": "e-Books Search",
+      "category": "portals",
+      "purpose": "Direct search portal for registered e-books subscriptions",
+      "url": "https://srmist.elib.in/",
+      "tags": [
+        "e-Books",
+        "Search",
+        "SRM Portal"
+      ],
+      "ratingCount": 2,
+      "ratingSum": 9
+    },
+    {
+      "id": "p5",
+      "name": "OPAC / Book Search",
+      "category": "portals",
+      "purpose": "Online Public Access Catalogue for physical books search in central library",
+      "url": "http://opac.srmist.edu.in/",
+      "tags": [
+        "OPAC",
+        "Book Search",
+        "Physical Catalog",
+        "SRM Portal"
+      ],
+      "ratingCount": 5,
+      "ratingSum": 22
+    },
+    {
+      "id": "p6",
+      "name": "Online Resources Portal",
+      "category": "portals",
+      "purpose": "Link list page containing additional library subscriptions",
+      "url": "https://www.srmist.edu.in/library/online-resources",
+      "tags": [
+        "Online Resources",
+        "SRM Portal"
+      ],
+      "ratingCount": 3,
+      "ratingSum": 12
+    },
+    {
+      "id": "j15_9304",
+      "name": "arXiv Preprint Archive",
+      "category": "journals",
+      "purpose": "Open-access archive for 2 million scholarly articles in physics, CS, math",
+      "url": "https://arxiv.org",
+      "tags": [
+        "Preprint",
+        "Science",
+        "Math"
+      ],
+      "ratingCount": 0,
+      "ratingSum": 0
+    }
+  ],
+  "reviews": [
+    {
+      "id": "r1",
+      "resourceId": "j1",
+      "userName": "Rohan Sharma",
+      "rating": 5,
+      "comment": "Essential for research. Has all IEEE journals and conference papers.",
+      "timestamp": "2026-08-20T10:15:30.000Z"
+    },
+    {
+      "id": "r2",
+      "resourceId": "j2",
+      "userName": "Priya Patel",
+      "rating": 4,
+      "comment": "Very helpful for computer science theories and algorithms papers.",
+      "timestamp": "2026-08-21T14:22:10.000Z"
+    },
+    {
+      "id": "r3",
+      "resourceId": "p1",
+      "userName": "Aditya Verma",
+      "rating": 5,
+      "comment": "Awesome remote access portal! Allows accessing subscriptions from home easily.",
+      "timestamp": "2026-08-23T09:05:45.000Z"
+    },
+    {
+      "id": "r_1787650221038_772",
+      "resourceId": "j1",
+      "userName": "Test Student",
+      "rating": 5,
+      "comment": "Works great on campus network!",
+      "timestamp": "2026-08-25T09:30:21.038Z"
+    },
+    {
+      "id": "r_1787651825770_13",
+      "resourceId": "j1",
+      "userName": "QA Automated Tester",
+      "rating": 5,
+      "comment": "Fully verified and operational!",
+      "timestamp": "2026-08-25T09:57:05.770Z"
+    }
+  ],
+  "bookmarks": [
+    "p1",
+    "j1"
+  ]
+}
