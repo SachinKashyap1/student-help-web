@@ -18,7 +18,8 @@ document.addEventListener('DOMContentLoaded', () => {
     journals: { label: 'Online Journal', class: 'badge-journals' },
     databases: { label: 'Online Database', class: 'badge-databases' },
     ebooks: { label: 'E-Book', class: 'badge-ebooks' },
-    portals: { label: 'Useful Portal', class: 'badge-portals' }
+    portals: { label: 'Useful Portal', class: 'badge-portals' },
+    ctpapers: { label: 'Ct papers', class: 'badge-ctpapers' }
   };
 
   // DOM Elements
@@ -45,6 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const databaseCountBadge = document.getElementById('databaseCountBadge');
   const ebookCountBadge = document.getElementById('ebookCountBadge');
   const portalCountBadge = document.getElementById('portalCountBadge');
+  const ctpaperCountBadge = document.getElementById('ctpaperCountBadge');
 
   // Sidebar Elements
   const noSelectionState = document.getElementById('noSelectionState');
@@ -175,7 +177,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function renderCategoryCounts() {
-    const counts = { journals: 0, databases: 0, ebooks: 0, portals: 0 };
+    const counts = { journals: 0, databases: 0, ebooks: 0, portals: 0, ctpapers: 0 };
     resources.forEach(r => {
       if (counts[r.category] !== undefined) counts[r.category]++;
     });
@@ -184,6 +186,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (databaseCountBadge) databaseCountBadge.textContent = counts.databases;
     if (ebookCountBadge) ebookCountBadge.textContent = counts.ebooks;
     if (portalCountBadge) portalCountBadge.textContent = counts.portals;
+    if (ctpaperCountBadge) ctpaperCountBadge.textContent = counts.ctpapers;
   }
 
   function getFilteredAndSortedResources() {

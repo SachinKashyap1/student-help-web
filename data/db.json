@@ -518,6 +518,20 @@
       "ratingSum": 12
     },
     {
+      "id": "c1",
+      "name": "The Helpers - Semesters",
+      "category": "ctpapers",
+      "purpose": "Semester papers and study material resources for students.",
+      "url": "https://www.thehelpers.tech/semesters",
+      "tags": [
+        "Ct papers",
+        "Semester",
+        "Study Materials"
+      ],
+      "ratingCount": 0,
+      "ratingSum": 0
+    },
+    {
       "id": "j15_9304",
       "name": "arXiv Preprint Archive",
       "category": "journals",

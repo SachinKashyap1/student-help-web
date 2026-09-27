@@ -105,6 +105,16 @@ body {
   color: #fde68a;
 }
 
+.badge-ctpapers {
+  background-color: #fce7f3;
+  color: #9d174d;
+}
+
+.dark .badge-ctpapers {
+  background-color: rgba(157, 23, 77, 0.3);
+  color: #f9a8d4;
+}
+
 /* Modal backdrop animation */
 #addResourceModal {
   transition: opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1);
