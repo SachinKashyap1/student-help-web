@@ -524,9 +524,23 @@
       "purpose": "Semester papers and study material resources for students.",
       "url": "https://www.thehelpers.tech/semesters",
       "tags": [
-        "Ct papers",
+        "CT Papers",
         "Semester",
         "Study Materials"
+      ],
+      "ratingCount": 0,
+      "ratingSum": 0
+    },
+    {
+      "id": "c2",
+      "name": "Studocu SRM University Resources",
+      "category": "ctpapers",
+      "purpose": "Student-shared course notes and semester paper resources for SRM University.",
+      "url": "https://www.studocu.com/in/course/srm-institute-of-science-and-technology/srm-university/7570500",
+      "tags": [
+        "CT Papers",
+        "SRM",
+        "Semester"
       ],
       "ratingCount": 0,
       "ratingSum": 0

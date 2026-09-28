@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
     databases: { label: 'Online Database', class: 'badge-databases' },
     ebooks: { label: 'E-Book', class: 'badge-ebooks' },
     portals: { label: 'Useful Portal', class: 'badge-portals' },
-    ctpapers: { label: 'Ct papers', class: 'badge-ctpapers' }
+    ctpapers: { label: 'CT Paper Reference Site', class: 'badge-ctpapers' }
   };
 
   // DOM Elements
